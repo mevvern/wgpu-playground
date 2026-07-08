@@ -1,0 +1,21 @@
+{
+  "name": "wgpucompute-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "esbuild ./src/main.ts --bundle --outfile=./dist/main.js --watch --minify"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "devDependencies": {
+    "esbuild": "0.28.1",
+    "typescript": "^6.0.3"
+  },
+  "dependencies": {
+    "@codemirror/lang-javascript": "^6.2.5",
+    "codemirror": "^6.0.2"
+  }
+}
