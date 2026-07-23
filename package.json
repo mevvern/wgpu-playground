@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "esbuild ./src/main.ts --bundle --outfile=./dist/main.js --watch --minify"
+    "start": "esbuild ./src/main.ts --bundle --outfile=./dist/main.js --watch --minify-whitespace --minify-syntax --sourcemap",
+    "build": "esbuild ./src/main.ts --bundle --outfile=./dist/main.js --minify --sourcemap"
   },
   "keywords": [],
   "author": "",
